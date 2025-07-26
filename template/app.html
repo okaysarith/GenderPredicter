@@ -1,0 +1,25 @@
+{% extends 'first_page.html' %}
+
+{% block bodyblock %}
+
+<div class="container">
+    <h3 class="display-6">Face Recognition Application
+    </h3>
+
+    <p>
+    Gender Classification : This app is driven by data and machine learning model.
+        As soonn as user uploads a image , in background it converts to grayscale ,crop_face , converts intom eigen image and finally it model to predict. All this functionality is dumped in flask app. 
+        this page is from app.html to views.py to main.py 
+    </p>
+
+    <img src="/static/images/002.PNG" class="image-fluid" width="600" alt="">
+    
+    <a class= "btn btn-outline-dark" href="/app/gender/">
+        Gender App
+    </a>
+
+
+
+</div>
+
+{% endblock %}
